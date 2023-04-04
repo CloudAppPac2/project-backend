@@ -1,13 +1,23 @@
 # project-backend
 
-Wpisać w terminal polecenie: docker build -t project-backend .
+Aby uruchomić aplikację należy:
 
-przejść do Images w Docker Desktop,
+1. Uruchomić plik main.py
 
-uruchomić utworzony obraz,
+2. Wpisać w przeglądarce adres: http://127.0.0.1:8000/ lub http://127.0.0.1:8000/hello
 
-ustawić port 8000 w ustawieniach,
+Pierwsza opcja wyświetli napis w oknie przeglądarki "Hello, world!"
+Druga opcja wyświtli napis "Hello, what's your name?" i pole tekstowe. Po wypełnieniu pola imieniem i kliknięciu Submit ukaże się napis: "Hello, (wartość pola)!"
 
-wpisać w przeglądarce: "localhost:8000" lub "localhost:8000/hello",
+Kod został wyposażony w możliwość przetesotwania.
+Aby uruchomić testy Locust należy:
 
-cieszyć się wykonanym zadaniem.
+1. Wpisać w pustym terminalu polecenie "Locust"
+
+2. Uruchomić plik main.py
+
+3. Wpisać w przeglądarce adres: http://localhost:8089/
+
+4. Wpisać w przeglądarce adres: http://127.0.0.1:8000/ lub http://127.0.0.1:8000/hello
+
+5. Ustawić parametry testów (liczba userów, którzy będą wykonywać reqest; ile userów w ciągu sekundy wykona request; adres (http://127.0.0.1:8000/ lub http://127.0.0.1:8000/hello))i je uruchomić
