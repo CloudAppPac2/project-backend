@@ -20,4 +20,4 @@ Aby uruchomić testy Locust należy:
 
 4. Wpisać w przeglądarce adres: http://127.0.0.1:8000/ lub http://127.0.0.1:8000/hello
 
-5. Ustawić parametry testów (liczba userów, którzy będą wykonywać reqest; ile userów w ciągu sekundy wykona request; adres (http://127.0.0.1:8000/ lub http://127.0.0.1:8000/hello))i je uruchomić
+5. Ustawić parametry testów (liczba userów, którzy będą wykonywać reqest; ile userów w ciągu sekundy wykona request; adres (http://127.0.0.1:8000/ lub http://127.0.0.1:8000/hello)) i je uruchomić
