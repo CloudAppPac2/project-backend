@@ -10,7 +10,5 @@ class HelloWorldUser(HttpUser):
     def hello(self):
         self.client.get("/hello")
 
-        # example of a POST request to "/hello" endpoint
-        # replace "{name}" with an actual name
         self.client.post("/hello", data={"name": "{name}"})
 
